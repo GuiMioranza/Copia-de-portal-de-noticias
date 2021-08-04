@@ -1,0 +1,18 @@
+/* comentario do css*/
+
+.layout-wrapper { /* layout de toda a pagina*/
+  height: 100vh;
+  width: 100vw;
+  /*display: grid;  dividindo a pagina em 2 colunas*/
+
+}
+
+.menu{
+  height: 40px;
+  background-color: green;
+}
+
+.titulo {
+  height: 65px;
+  background-color: red;
+}
