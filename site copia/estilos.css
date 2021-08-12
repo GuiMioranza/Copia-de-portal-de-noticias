@@ -1,18 +1,61 @@
 /* comentario do css*/
 
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
 .layout-wrapper { /* layout de toda a pagina*/
   height: 100vh;
   width: 100vw;
-  /*display: grid;  dividindo a pagina em 2 colunas*/
+}
+
+.header{
+  display: flex;
+  height: 40px;
+  font-weight: bold;
+  align-items: center;
+
+  text-decoration: none;
+  background: #ebdfdf;
+  justify-content: space-between;
+}
+
+.menu-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  text-decoration: none;
+  height: 40px;
+  font-weight: bold;
+  gap: 10px;
+}
+
+.menu-item {
 
 }
 
-.menu{
-  height: 40px;
-  background-color: green;
+.botao {
+  background-color: white
+  border: none;
+  color: blue;
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
 }
 
 .titulo {
   height: 65px;
+  font-family: cursive;
+  font-size: 40px;
+  color:white;
+  
   background-color: red;
 }
