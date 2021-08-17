@@ -10,18 +10,19 @@ li{
   list-style: none;
 }
 .layout-wrapper { /* layout de toda a pagina*/
+  margin: 40px;
   height: 100vh;
   width: 100vw;
 }
 
 .header{
   display: flex;
-  height: 40px;
+  max-height: 40px;
   font-weight: bold;
   align-items: center;
 
   text-decoration: none;
-  background: #ebdfdf;
+  background:#f3f3f3;
   justify-content: space-between;
 }
 
@@ -29,26 +30,57 @@ li{
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-size: 12px;
   
-  text-decoration: none;
-  height: 40px;
+  /*text-decoration: none;*/
   font-weight: bold;
+  height: 35px;
   gap: 10px;
 }
 
 .menu-item {
+font-family: helvetica,arial,sans-serif;
+}
 
+.globodotcom {
+  font-weight: bolder;
+  color: #0669de;
+}
+
+.g1 {
+  margin: 1px;
+  color: #a80000;
+  padding-left: 3px;
+}
+
+.ge {
+  margin: 1px;
+  color: #06aa48;
+}
+
+.gshow {
+  margin: 1px;
+  color: #ff7f00;
+}
+
+.videos {
+  margin: 1px;
+  color: #005cef;
 }
 
 .botao {
-  background-color: white
-  border: none;
-  color: blue;
-  padding: 2px 4px;
+  border-radius: 6px;
+  color: #1063e0;
+  padding: 3px 3px 2px;
+  margin-right: 4px;
+  
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 9px;
+
+  font-family: helvetica,arial,sans-serif;
+  background-color: #cabebe;
 }
 
 .titulo {
@@ -56,6 +88,29 @@ li{
   font-family: cursive;
   font-size: 40px;
   color:white;
-  
+  text-align: center;
   background-color: red;
+}
+
+.propaganda {
+  padding: 0 0 30px;
+  width: 970px;
+  height: 250px;
+}
+.news1 {
+ grid: 
+  width: ;
+  height: ;
+}
+
+.news2{ 
+  
+  width: ;
+  height: ;
+}
+
+.news3 {
+
+  width: ;
+  height: ;
 }
