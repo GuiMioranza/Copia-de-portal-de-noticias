@@ -10,9 +10,8 @@ li{
   list-style: none;
 }
 .layout-wrapper { /* layout de toda a pagina*/
-  margin: 40px;
   height: 100vh;
-  width: 100vw;
+  width: 98vw;
 }
 
 .header{
@@ -33,6 +32,7 @@ li{
   font-size: 12px;
   
   /*text-decoration: none;*/
+  margin-left: 5px;
   font-weight: bold;
   height: 35px;
   gap: 10px;
@@ -93,24 +93,29 @@ font-family: helvetica,arial,sans-serif;
 }
 
 .propaganda {
-  padding: 0 0 30px;
-  width: 970px;
-  height: 250px;
-}
-.news1 {
- grid: 
-  width: ;
-  height: ;
-}
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  margin: 1% 1%;
+  width: 90vw;
+  }
 
-.news2{ 
-  
-  width: ;
-  height: ;
+.propaganda > .image_ad {
+  width: 90vw;
+  height: 35vh;
 }
 
-.news3 {
+.conteiner {
+ margin-left: 10px;
+ display: grid;
+ grid-template-columns: auto auto;
+ grid-gap: 10px 15px;
+ height: 100vh;
+ width: 95vw;
+}
 
-  width: ;
-  height: ;
+.conteiner > .iten {
+border: 1px solid black;
+color: white;
+
 }
